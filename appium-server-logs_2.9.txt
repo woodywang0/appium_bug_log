@@ -1,0 +1,235 @@
+[info] [35m[Appium][39m Welcome to Appium v1.19.1
+[info] [35m[Appium][39m Non-default server args:
+[info] [35m[Appium][39m   relaxedSecurityEnabled: true
+[info] [35m[Appium][39m   allowInsecure: {
+[info] [35m[Appium][39m   }
+[info] [35m[Appium][39m   denyInsecure: {
+[info] [35m[Appium][39m   }
+[info] [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{"desiredCapabilities":{"automationName":"XCUITest","bundleId":"com.ss.iphone.ugc.TrillInhouse1","deviceName":"iPhone11","newCommandTimeout":"3600","platformName":"iOS","platformVersion":"14.5","udid":"00008030-001D196A3688802E","xcodeOrgId":"YTZ273RCY2","xcodeSigningId":"iPhone Developer","connectHardwareKeyboard":true}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"automationName":"XCUITest","bundleId":"com.ss.iphone.ugc.TrillInhouse1","deviceName":"iPhone11","newCommandTimeout":"3600","platformName":"iOS","platformVersion":"14.5","udid":"00008030-001D196A3688802E","xcodeOrgId":"YTZ273RCY2","xcodeSigningId":"iPhone Developer","connectHardwareKeyboard":true},null,null]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1612859243193 (16:27:23 GMT+0800 (中国标准时间))
+[info] [35m[Appium][39m Appium v1.19.1 creating new XCUITestDriver (v3.31.1) session
+[info] [35m[Appium][39m Applying relaxed security to 'XCUITestDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+[debug] [35m[BaseDriver][39m   "automationName": "XCUITest",
+[debug] [35m[BaseDriver][39m   "bundleId": "com.ss.iphone.ugc.TrillInhouse1",
+[debug] [35m[BaseDriver][39m   "deviceName": "iPhone11",
+[debug] [35m[BaseDriver][39m   "newCommandTimeout": "3600",
+[debug] [35m[BaseDriver][39m   "platformName": "iOS",
+[debug] [35m[BaseDriver][39m   "platformVersion": "14.5",
+[debug] [35m[BaseDriver][39m   "udid": "00008030-001D196A3688802E",
+[debug] [35m[BaseDriver][39m   "xcodeOrgId": "YTZ273RCY2",
+[debug] [35m[BaseDriver][39m   "xcodeSigningId": "iPhone Developer",
+[debug] [35m[BaseDriver][39m   "connectHardwareKeyboard": true
+[debug] [35m[BaseDriver][39m }
+[warn] [35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('3600') to integer (3600). This may cause unexpected behavior
+[info] [35m[BaseDriver][39m Session created with session id: d516fdba-0396-40d6-984b-5e8d695e6580[debug] [35m[XCUITest][39m Available devices: 00008030-001D196A3688802E
+[debug] [35m[XCUITest][39m Creating iDevice object with udid '00008030-001D196A3688802E'
+[info] [35m[XCUITest][39m Determining device to run tests on: udid: '00008030-001D196A3688802E', real device: true
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1612859244965 (16:27:24 GMT+0800 (中国标准时间))
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1612859244965 (16:27:24 GMT+0800 (中国标准时间))
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1612859244966 (16:27:24 GMT+0800 (中国标准时间))
+[debug] [35m[XCUITest][39m Reset: running ios real device reset flow
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1612859244966 (16:27:24 GMT+0800 (中国标准时间))
+[info] [35m[WebDriverAgent][39m Using WDA path: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-webdriveragent'
+[info] [35m[WebDriverAgent][39m Using WDA agent: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'[debug] [35m[XCUITest][39m Crash reports root '/Users/wangjinsong/Library/Logs/CrashReporter/MobileDevice/王劲松iPhone11' does not exist. Got nothing to gather.
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1612859245224 (16:27:25 GMT+0800 (中国标准时间))
+[info] [35m[XCUITest][39m Setting up real device[debug] [35m[WebDriverAgent][39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[info] [35m[DevCon Factory][39m Requesting connection for device 00008030-001D196A3688802E on local port 8100, device port 8100
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[info] [35m[DevCon Factory][39m Successfully requested the connection for 00008030-001D196A3688802E:8100
+[debug] [35m[XCUITest][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.2","version":"14.4"},"ios":{"ip":"10.79.164.17"},"ready":true,"build":{"time":"Feb  9 2021 15:53:03","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the currently bundled WDA: 1610959225421
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the WDA on the device: undefined
+[info] [35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] [35m[XCUITest][39m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [35m[XCUITest][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1612859245628 (16:27:25 GMT+0800 (中国标准时间))
+[info] [35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.2","version":"14.4"},"ios":{"ip":"10.79.164.17"},"ready":true,"build":{"time":"Feb  9 2021 15:53:03","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1612859245678 (16:27:25 GMT+0800 (中国标准时间))
+[debug] [35m[XCUITest][39m Sending createSession command to WDA
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.ss.iphone.ugc.TrillInhouse1","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}],"alwaysMatch":{}}}[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"A3F9498C-5351-4BF5-81F5-874E3D893DB5","capabilities":{"device":"iphone","browserName":"TikTok Inhouse","sdkVersion":"14.4","CFBundleIdentifier":"com.ss.iphone.ugc.TrillInhouse1"}},"sessionId":"A3F9498C-5351-4BF5-81F5-874E3D893DB5"}
+[info] [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1612859248996 (16:27:28 GMT+0800 (中国标准时间))
+[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1612859248996 (16:27:28 GMT+0800 (中国标准时间))
+[info] [35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1612859248996 (16:27:28 GMT+0800 (中国标准时间))
+[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[info] [35m[Appium][39m New XCUITestDriver session created successfully, session d516fdba-0396-40d6-984b-5e8d695e6580 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1612859248998 (16:27:28 GMT+0800 (中国标准时间))
+[debug] [35m[MJSONWP (d516fdba)][39m Cached the protocol value 'MJSONWP' for the new session d516fdba-0396-40d6-984b-5e8d695e6580
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"automationName":"XCUITest","bundleId":"com.ss.iphone.ugc.TrillInhouse1","deviceName":"iPhone11","newCommandTimeout":3600,"platformName":"iOS","platformVersion":"14.5","udid":"00008030-001D196A3688802E","xcodeOrgId":"YTZ273RCY2","xcodeSigningId":"iPhone Developer","connectHardwareKeyboard":true}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m5809 ms - 565[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/contexts[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getContexts() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getContexts'
+[debug] [35m[XCUITest][39m Getting list of available contexts
+[debug] [35m[iOS][39m Retrieving contexts and views
+[debug] [35m[XCUITest][39m Selecting by url: false 
+[info] [35m[RemoteDebugger][39m Remote Debugger version 8.13.2
+[debug] [35m[RemoteDebugger][39m useNewSafari --> false
+[debug] [35m[RemoteDebugger][39m Checking which communication style to use (non-Safari on platform version '14.5')
+[debug] [35m[RemoteDebugger][39m Platform version equal or higher than '12.2': true
+[warn] [35m[RemoteDebugger][39m Setting communication protocol: using Target-based communication[debug] [35m[RemoteDebugger][39m Sending connection key request
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_reportIdentifier:' message (id: 0): 'setConnectionKey'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 6ms
+[debug] [35m[RemoteDebugger][39m Sending connection key request
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_reportIdentifier:' message (id: 2): 'setConnectionKey'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 6ms
+[debug] [35m[RemoteDebugger][39m Selecting application
+[debug] [35m[RemoteDebugger][39m No applications currently connected.
+[debug] [35m[XCUITest][39m No web frames found.
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/contexts [39m[32m200[39m [90m166 ms - 86[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/context[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getCurrentContext() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getCurrentContext'
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/context [39m[32m200[39m [90m3 ms - 84[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getSession() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getSession'
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"A3F9498C-5351-4BF5-81F5-874E3D893DB5","capabilities":{"device":"iphone","browserName":"TikTok Inhouse","sdkVersion":"14.4","CFBundleIdentifier":"com.ss.iphone.ugc.TrillInhouse1"}},"sessionId":"A3F9498C-5351-4BF5-81F5-874E3D893DB5"}
+[debug] [35m[WD Proxy][39m Proxying [GET /wda/screen] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5/wda/screen] with no body[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"statusBarSize":{"width":414,"height":48},"scale":2},"sessionId":"A3F9498C-5351-4BF5-81F5-874E3D893DB5"}
+[debug] [35m[WD Proxy][39m Proxying [GET /window/size] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5/window/size] with no body[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"width":414,"height":896},"sessionId":"A3F9498C-5351-4BF5-81F5-874E3D893DB5"}
+[info] [35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getSession() result: {"udid":"00008030-001D196A3688802E","automationName":"XCUITest","bundleId":"com.ss.iphone.ugc.TrillInhouse1","deviceName":"iPhone11","newCommandTimeout":3600,"platformName":"iOS","platformVersion":"14.5","xcodeOrgId":"YTZ273RCY2","xcodeSigningId":"iPhone Developer","connectHardwareKeyboard":true,"device":"iphone","browserName":"TikTok Inhouse","sdkVersion":"14.4","CFBundleIdentifier":"com.ss.iphone.ugc.TrillInhouse1","pixelRatio":2,"statBarHeight":48,"viewportRect":{"left":0,"top":96,"width":828,"height":1696}}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580 [39m[32m200[39m [90m377 ms - 588[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/window/current/size[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getWindowSize() with args: ["current","d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getWindowSize'
+[debug] [35m[WD Proxy][39m Proxying [GET /window/size] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5/window/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"width":414,"height":896},"sessionId":"A3F9498C-5351-4BF5-81F5-874E3D893DB5"}
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getWindowSize() result: {"width":414,"height":896}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/window/current/size [39m[32m200[39m [90m99 ms - 98[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/execute[39m
+[info] [35m[HTTP][39m [90m{"script":"mobile:getContexts","args":[]}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.execute() with args: ["mobile:getContexts",[],"d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'execute'
+[debug] [35m[XCUITest][39m Getting list of available contexts
+[debug] [35m[iOS][39m Retrieving contexts and views
+[debug] [35m[XCUITest][39m Selecting by url: false 
+[debug] [35m[RemoteDebugger][39m Sending connection key request
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_reportIdentifier:' message (id: 4): 'setConnectionKey'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 3ms
+[debug] [35m[RemoteDebugger][39m Selecting application
+[debug] [35m[RemoteDebugger][39m No applications currently connected.
+[debug] [35m[XCUITest][39m No web frames found.
+[debug] [35m[XCUITest][39m No webviews found in 4ms
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.execute() result: [{"id":"NATIVE_APP"}]
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/execute [39m[32m200[39m [90m7 ms - 93[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/source[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getPageSource() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getPageSource'
+[debug] [35m[WD Proxy][39m Matched '/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /source] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5/source] with no body[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"TikTok Inhouse\" label=\"TikTok Inhouse\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\...
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"TikTok Inhouse\" label=\"TikTok Inhouse\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\...
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/source [39m[32m200[39m [90m2632 ms - 19510[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/screenshot[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getScreenshot() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5/screenshot] with no body
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/wangjinsong/Library/Developer/Xcode/DerivedData/WebDriverAgent-alwvnomvwrdtzoaxbbkniqrpcdpp/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/wangjinsong/Library/Developer/Xcode/DerivedData/WebDriverAgent-alwvnomvwrdtzoaxbbkniqrpcdpp'[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAAPR5iB41zgAAQABJREFUeAHs3QecZUd1LfzW5KxRRFlC\r\nBOU4GmkkgsjJFskGhHJCQkIBECCMyQpIIto48p4D5tnYgJ8TNsl8BqGIbcAZP0ee\r\nwSbamGADfra//71rpjjc2+F2T3dP98yu6V/NPnV27dq1Tp2z1606YWy33XYb25bI\r\n0rJly1auXLl69eo1a9asHUoKKxUChUAhUAgUAoVAIVAIzBECaBgytmTJkm0Ebeh/\r\n+2isWLFi1apVnAhbizfkOXKrzBYChUAhUAgUAoVAIVAIdBHAxPAxrGzp0qXjUDcT\r\nbMuXL+/OrnUrF2nrolFyIVAIFAKFQCFQCBQC84AAYoaefc88WxgbWtfWQpsfwyVt\r\nVwmFQCFQCBQChUAhUAgUAnOKAHpmvu27vM38W1sSndOGy3ghUAgUAoVAIVAIFAKF\r\nwIgImDsz2Wap1PzaVt5m5k3l7hpoVx7RbqkVAoVAIVAIFAKFQCFQCMwFAubXeqTN\r\nnJuHFOaigbJZCBQChUAhUAgUAoVAIbD9CFgR7T2RYM4tzx90LQ6XdPeWXAgUAoVA\r\nIVAIFAKFQCEwnwggbGPFz+YT8WqrECgECoFCoBAoBAqBGSCAsI3NoFpVKQQKgUKg\r\nECgECoFCoBCYZwSKtM0z4NVcIVAIFAKFQCFQCBQCM0GgSNtMUKs6hUAhUAgUAoVA\r\nIVAIzDMCY+31uSMK8+xfNVcIFAKFQCFQCBQChcCuicAAN5s2aRuoX5uFQCF...
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAAPR5iB41zgAAQABJREFUeAHs3QecZUd1LfzW5KxRRFlC\r\nBOU4GmkkgsjJFskGhHJCQkIBECCMyQpIIto48p4D5tnYgJ8TNsl8BqGIbcAZP0ee\r\nwSbamGADfra//71rpjjc2+F2T3dP98yu6V/NPnV27dq1Tp2z1606YWy33XYb25bI\r\n0rJly1auXLl69eo1a9asHUoKKxUChUAhUAgUAoVAIVAIzBECaBgytmTJkm0Ebeh/\r\n+2isWLFi1apVnAhbizfkOXKrzBYChUAhUAgUAoVAIVAIdBHAxPAxrGzp0qXjUDcT\r\nbMuXL+/OrnUrF2nrolFyIVAIFAKFQCFQCBQC84AAYoaefc88WxgbWtfWQpsfwyVt\r\nVwmFQCFQCBQChUAhUAgUAnOKAHpmvu27vM38W1sSndOGy3ghUAgUAoVAIVAIFAKF\r\nwIgImDsz2Wap1PzaVt5m5k3l7hpoVx7RbqkVAoVAIVAIFAKFQCFQCMwFAubXeqTN\r\nnJuHFOaigbJZCBQChUAhUAgUAoVAIbD9CFgR7T2RYM4tzx90LQ6XdPeWXAgUAoVA\r\nIVAIFAKFQCEwnwggbGPFz+YT8WqrECgECoFCoBAoBAqBGSCAsI3NoFpVKQQKgUKg\r\nECgECoFCoBCYZwSKtM0z4NVcIVAIFAKFQCFQCBQCM0GgSNtMUKs6hUAhUAgUAoVA\r\nIVAIzDMCY+31uSMK8+xfNVcIFAKFQCFQCBQChcCuicAAN5s2aRuoX5uFQCFQCBQC\r\n...
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/screenshot [39m[32m200[39m [90m844 ms - 272070[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/contexts[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getContexts() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getContexts'
+[debug] [35m[XCUITest][39m Getting list of available contexts
+[debug] [35m[iOS][39m Retrieving contexts and views
+[debug] [35m[XCUITest][39m Selecting by url: false 
+[debug] [35m[RemoteDebugger][39m Sending connection key request
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_reportIdentifier:' message (id: 6): 'setConnectionKey'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 3ms
+[debug] [35m[RemoteDebugger][39m Selecting application
+[debug] [35m[RemoteDebugger][39m No applications currently connected.
+[debug] [35m[XCUITest][39m No web frames found.
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/contexts [39m[32m200[39m [90m5 ms - 86[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/context[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getCurrentContext() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getCurrentContext'
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/context [39m[32m200[39m [90m1 ms - 84[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getSession() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getSession'
+[info] [35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getSession() result: {"udid":"00008030-001D196A3688802E","automationName":"XCUITest","bundleId":"com.ss.iphone.ugc.TrillInhouse1","deviceName":"iPhone11","newCommandTimeout":3600,"platformName":"iOS","platformVersion":"14.5","xcodeOrgId":"YTZ273RCY2","xcodeSigningId":"iPhone Developer","connectHardwareKeyboard":true,"device":"iphone","browserName":"TikTok Inhouse","sdkVersion":"14.4","CFBundleIdentifier":"com.ss.iphone.ugc.TrillInhouse1","pixelRatio":2,"statBarHeight":48,"viewportRect":{"left":0,"top":96,"width":828,"height":1696}}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580 [39m[32m200[39m [90m1 ms - 588[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/window/current/size[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getWindowSize() with args: ["current","d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getWindowSize'
+[debug] [35m[WD Proxy][39m Proxying [GET /window/size] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5/window/size] with no body[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"width":414,"height":896},"sessionId":"A3F9498C-5351-4BF5-81F5-874E3D893DB5"}
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getWindowSize() result: {"width":414,"height":896}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/window/current/size [39m[32m200[39m [90m48597 ms - 98[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/execute[39m
+[info] [35m[HTTP][39m [90m{"script":"mobile:getContexts","args":[]}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.execute() with args: ["mobile:getContexts",[],"d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'execute'
+[debug] [35m[XCUITest][39m Getting list of available contexts
+[debug] [35m[iOS][39m Retrieving contexts and views
+[debug] [35m[XCUITest][39m Selecting by url: false 
+[debug] [35m[RemoteDebugger][39m Sending connection key request
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_reportIdentifier:' message (id: 8): 'setConnectionKey'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 5ms
+[debug] [35m[RemoteDebugger][39m Selecting application
+[debug] [35m[RemoteDebugger][39m No applications currently connected.
+[debug] [35m[XCUITest][39m No web frames found.
+[debug] [35m[XCUITest][39m No webviews found in 7ms
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.execute() result: [{"id":"NATIVE_APP"}]
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/execute [39m[32m200[39m [90m11 ms - 93[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/source[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getPageSource() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getPageSource'
+[debug] [35m[WD Proxy][39m Matched '/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /source] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5/source] with no body[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"TikTok Inhouse\" label=\"TikTok Inhouse\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"1\" height=\"1\" index=\"0\">\n      <XCUIElementTypeButton type=\"XCUIElementTypeButton\" name=\"airplay\" label=\"airplay\" enabled=\"true\" visible=\"false\" x=\"-11\" y=\"-9\" width=\"22\" height=\"19\" index=\"0\"/>\n    </XCUIElementTypeOther>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"1\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0...
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"TikTok Inhouse\" label=\"TikTok Inhouse\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"1\" height=\"1\" index=\"0\">\n      <XCUIElementTypeButton type=\"XCUIElementTypeButton\" name=\"airplay\" label=\"airplay\" enabled=\"true\" visible=\"false\" x=\"-11\" y=\"-9\" width=\"22\" height=\"19\" index=\"0\"/>\n    </XCUIElementTypeOther>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"1\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0...
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/source [39m[32m200[39m [90m13265 ms - 43549[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/screenshot[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (d516fdba)][39m Calling AppiumDriver.getScreenshot() with args: ["d516fdba-0396-40d6-984b-5e8d695e6580"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/A3F9498C-5351-4BF5-81F5-874E3D893DB5/screenshot] with no body[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AACBJXUv890wAAQABJREFUeAHsvXeUHceVp8nembO7c3Z2\r\n9uyfszuzM+2mp1uGXqblPb13IEED7z2qCr5QKKDgQYLekyIp0YOgAWhEUqRESRQt\r\nSMq01FKrW56kvCgSHvtl/t771a3IfFmvClVggUKdOHFu3LgRGZkvM+OrGyYP+t//\r\n3UH//qDuQPLv/uq/ffpjHz7l+GMuOOes0ecPH3nu2YRR552DPOaCc4mR999A+6sD\r\n5/hOCmNHnHcgNH8Fxo08v5nQfIV9tfTRmymIsc180yYa3e16YPUsKx4xfBgPOOH8\r\ns888b9gZCueedfrwM08bdtrJZ5x8wmknHnfycUefeMznjv3sp4773KeJP/fJj33m\r\n4x/5xIc/+JEPHPmPRx72/sMOPuRd//Ov/uv/85f/5T9/8IhDzzzlxEljRzVqv/WJ\r\n4NY2EnxeFUKjsvtSn5yXk+NHXZAEZ0mgkYmGpIsUs2KuzYrChNEjSsPEMSMV+LGS\r\nMHnc6CbDlPFjHCqKTBo3un9h8vgxQzb09Ywmjh01YcxIwvjRIwjjRl2QBLL4IXQZ\r\ndVWnThiLoFgacnMBs5GE5Idz8ViJCg5yPGrK+FpQw5xEyNs5YuKYCwgTRp/vII3i\r\nSWNHqCBxLDt1wmiFpP0VN1vpuXMN42VUbVLm+lE6yrSJY6ZPGjtj8oQYpk8arySC\r\n5ZlTJirMnjbZYdbUSQRnzZw8ecakSQQLkknOmjJFAdm50yZMmDJu3KQxYxQ...
+[debug] [35m[MJSONWP (d516fdba)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AACBJXUv890wAAQABJREFUeAHsvXeUHceVp8nembO7c3Z2\r\n9uyfszuzM+2mp1uGXqblPb13IEED7z2qCr5QKKDgQYLekyIp0YOgAWhEUqRESRQt\r\nSMq01FKrW56kvCgSHvtl/t771a3IfFmvClVggUKdOHFu3LgRGZkvM+OrGyYP+t//\r\n3UH//qDuQPLv/uq/ffpjHz7l+GMuOOes0ecPH3nu2YRR552DPOaCc4mR999A+6sD\r\n5/hOCmNHnHcgNH8Fxo08v5nQfIV9tfTRmymIsc180yYa3e16YPUsKx4xfBgPOOH8\r\ns888b9gZCueedfrwM08bdtrJZ5x8wmknHnfycUefeMznjv3sp4773KeJP/fJj33m\r\n4x/5xIc/+JEPHPmPRx72/sMOPuRd//Ov/uv/85f/5T9/8IhDzzzlxEljRzVqv/WJ\r\n4NY2EnxeFUKjsvtSn5yXk+NHXZAEZ0mgkYmGpIsUs2KuzYrChNEjSsPEMSMV+LGS\r\nMHnc6CbDlPFjHCqKTBo3un9h8vgxQzb09Ywmjh01YcxIwvjRIwjjRl2QBLL4IXQZ\r\ndVWnThiLoFgacnMBs5GE5Idz8ViJCg5yPGrK+FpQw5xEyNs5YuKYCwgTRp/vII3i\r\nSWNHqCBxLDt1wmiFpP0VN1vpuXMN42VUbVLm+lE6yrSJY6ZPGjtj8oQYpk8arySC\r\n5ZlTJirMnjbZYdbUSQRnzZw8ecakSQQLkknOmjJFAdm50yZMmDJu3KQxYxQmjBo1\r\n...
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/d516fdba-0396-40d6-984b-5e8d695e6580/screenshot [39m[32m200[39m [90m290 ms - 1581086[39m
+[info] [35m[HTTP][39m [90m[39m
